@@ -1,0 +1,46 @@
+{
+  "poisson": {
+    "aic": 6713.818474777345,
+    "bic": 758.0885625852757,
+    "summary": "                 Generalized Linear Model Regression Results                  \n==============================================================================\nDep. Variable:                 counts   No. Observations:                  500\nModel:                            GLM   Df Residuals:                      497\nModel Family:                 Poisson   Df Model:                            2\nLink Function:                    Log   Scale:                          1.0000\nMethod:                          IRLS   Log-Likelihood:                -3353.9\nDate:                Thu, 06 Nov 2025   Deviance:                       3846.7\nTime:                        21:44:15   Pearson chi2:                 4.12e+03\nNo. Iterations:                     5   Pseudo R-squ. (CS):              1.000\nCovariance Type:            nonrobust                                         \n===============================================================================\n                  coef    std err          z      P>|z|      [0.025      0.975]\n-------------------------------------------------------------------------------\nIntercept       3.5449      0.065     54.230      0.000       3.417       3.673\ntrue_signal     0.0096   6.41e-05    149.440      0.000       0.009       0.010\nbackground     -0.0176      0.010     -1.760      0.078      -0.037       0.002\n===============================================================================",
+    "results": {
+      "Intercept": {
+        "coef": 3.5449354232728503,
+        "pvalue": 0.0,
+        "zvalue": 54.229949791184644
+      },
+      "true_signal": {
+        "coef": 0.00957410783723828,
+        "pvalue": 0.0,
+        "zvalue": 149.44013109089212
+      },
+      "background": {
+        "coef": -0.017575823713621597,
+        "pvalue": 0.07840387602631974,
+        "zvalue": -1.7600231823398103
+      }
+    }
+  },
+  "neg_binomial": {
+    "aic": 4965.896714618432,
+    "bic": -3022.1047684768787,
+    "summary": "                 Generalized Linear Model Regression Results                  \n==============================================================================\nDep. Variable:                 counts   No. Observations:                  500\nModel:                            GLM   Df Residuals:                      497\nModel Family:        NegativeBinomial   Df Model:                            2\nLink Function:                    Log   Scale:                          1.0000\nMethod:                          IRLS   Log-Likelihood:                -2479.9\nDate:                Thu, 06 Nov 2025   Deviance:                       66.555\nTime:                        21:44:15   Pearson chi2:                     71.2\nNo. Iterations:                     9   Pseudo R-squ. (CS):             0.4139\nCovariance Type:            nonrobust                                         \n===============================================================================\n                  coef    std err          z      P>|z|      [0.025      0.975]\n-------------------------------------------------------------------------------\nIntercept       3.3013      0.515      6.411      0.000       2.292       4.311\ntrue_signal     0.0122      0.001     16.016      0.000       0.011       0.014\nbackground     -0.0119      0.079     -0.152      0.880      -0.166       0.142\n===============================================================================",
+    "results": {
+      "Intercept": {
+        "coef": 3.301329685620389,
+        "pvalue": 1.4497347616918582e-10,
+        "zvalue": 6.4105732516327025
+      },
+      "true_signal": {
+        "coef": 0.012163164317541105,
+        "pvalue": 9.9463541972083e-58,
+        "zvalue": 16.015587043151687
+      },
+      "background": {
+        "coef": -0.01192114245305377,
+        "pvalue": 0.87955312917115,
+        "zvalue": -0.15153572825434805
+      }
+    }
+  }
+}
