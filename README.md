@@ -99,7 +99,7 @@ This permission type preserves the open-source spirit while supporting reuse onl
 
 ## Contributors
 
-- Meriç Özcan: [LinkedIn](www.linkedin.com/in/meriç-özcan)  
+- Meriç Özcan: [LinkedIn](https://www.linkedin.com/in/meri%C3%A7-%C3%B6zcan/)  
 - Yusuf Erim Yaşar: [Instagram](https://www.instagram.com/yusuferimysr/)
 
 © 2025 – Educational & Research Simulation  
