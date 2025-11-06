@@ -67,7 +67,7 @@ Gerçek dünyada herhangi bir üretim veya deneysel uygulama gerçekleştirmeksi
 Toryum → Protaktinyum → Uranyum benzeri dönüşüm zincirlerinin **istatistiksel ve hesaplamalı modellerini** geliştirmek,  
 ve bu süreçlerin **zaman serisi kalıplarını** veri bilimi teknikleriyle analiz etmektir.
 
-#[Eng.]
+# [Eng.]
 # Thorium-232 Decay Statistical Modeling — Educational Report
 
 **This report is entirely for educational purposes; it contains no real nuclear production or operational information.**
