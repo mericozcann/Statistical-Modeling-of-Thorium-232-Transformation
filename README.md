@@ -14,34 +14,34 @@ The project also seeks to teach how statistical modeling, data visualization, un
 
 ## Project Contents & File Structure
 
-📦 Thorium-Education-Project
-│
-├── data/
-│   ├── synthetic_counts.csv                # Main synthetic dataset
-│   ├── synthetic_with_anomalies.csv        # Dataset labeled with anomalies
-│   ├── monte_carlo_counts.csv              # Data generated via Monte Carlo simulation
-│
-├── plots/
-│   ├── plot_timeseries.png                 # Time series plot
-│   ├── plot_bootstrap.png                  # Bootstrap confidence interval plot
-│   ├── plot_anomalies.png                  # Anomaly detection plot
-│   ├── plot_timeseries.html                # Plotly interactive version
-│
-├── models/
-│   ├── poisson_summary.txt                 # Poisson GLM model summary
-│   ├── neg_binomial_summary.txt            # Negative Binomial model summary
-│   ├── model_scores.json                   # AIC/BIC comparison results
-│
-├── reports/
-│   ├── summary_report.md                   # Auto-generated project summary
-│   ├── correlation_matrix.csv              # Correlation matrix output
-│
-├── tutorial_education.py                   # Simple educational script (example EDA)
-├── thorium_education_analysis.py           # Main analysis script (intermediate)
-├── thorium_education_analysis_full.py      # Full version (Monte Carlo, GLM, Bootstrap, Anomaly)
-├── thorium_education_analysis.ipynb        # Jupyter Notebook version (Turkish commentary)
-├── make_interactive_plots.py               # Plotly interactive plot generator
-└── README.md                               # This file
+📦 Thorium-Education-Project  
+│  
+├── data/  
+│   ├── synthetic_counts.csv                # Main synthetic dataset  
+│   ├── synthetic_with_anomalies.csv        # Dataset labeled with anomalies  
+│   ├── monte_carlo_counts.csv              # Data generated via Monte Carlo simulation  
+│  
+├── plots/  
+│   ├── plot_timeseries.png                 # Time series plot  
+│   ├── plot_bootstrap.png                  # Bootstrap confidence interval plot  
+│   ├── plot_anomalies.png                  # Anomaly detection plot  
+│   ├── plot_timeseries.html                # Plotly interactive version  
+│  
+├── models/  
+│   ├── poisson_summary.txt                 # Poisson GLM model summary  
+│   ├── neg_binomial_summary.txt            # Negative Binomial model summary  
+│   ├── model_scores.json                   # AIC/BIC comparison results  
+│  
+├── reports/  
+│   ├── summary_report.md                   # Auto-generated project summary  
+│   ├── correlation_matrix.csv              # Correlation matrix output  
+│  
+├── tutorial_education.py                   # Simple educational script (example EDA)  
+├── thorium_education_analysis.py           # Main analysis script (intermediate)  
+├── thorium_education_analysis_full.py      # Full version (Monte Carlo, GLM, Bootstrap, Anomaly)  
+├── thorium_education_analysis.ipynb        # Jupyter Notebook version (Turkish commentary)  
+├── make_interactive_plots.py               # Plotly interactive plot generator  
+└── README.md                               # This file  
 
 ## Core Methods Used
 
